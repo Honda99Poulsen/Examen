@@ -1,15 +1,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 55px 51px 61px 50px;
-    gap: 37px;
+    padding: 43px 39px 48px 38px;
+    column-gap: 45px;
+    row-gap: 43px;
     grid-auto-rows: 209px;
     grid-auto-columns: 307;
     box-sizing: border-box;
-}
-
-body {
-    color: #F5F5F5;
+    background-color: #e9e0e0;
 }
 
 .box {
@@ -17,79 +15,61 @@ body {
     width: 1440px;
 }
 
-.grid-item {
-    background-repeat: no-repeat;
-    background-color: #BABABA;
-    height: 209px;
-    background-position: 50% 50%;
-}
-
-.sz {
-    background-size: 283px 185px;
-}
-
-.sz1 {
-    background-size: 987px 185px;
-    width: 1011px;
-}
-
-.sz2 {
-    background-size: 635px 185px;
-    width: 659px;
-}
-
 .item1 {
-    background-image: url('../images/1.jpg')
-    }
+    background: url('../images/1.jpg') #BABABA center no-repeat;
+    } 
 
 .item2 {
-    background-image: url('../images/2.jpg');
+    background: url('../images/2.jpg') #BABABA center  no-repeat;
 }
 
 .item3 {
-    background-image: url('../images/3.jpg');
+    background: url('../images/3.jpg') #BABABA center  no-repeat;
 }
 
 .item4 {
-    background-image: url('../images/4.jpg');
+    background: url('../images/4.jpg') #BABABA center no-repeat;
 }
 
 .item5 {
+    background: url('../images/5.jpg') #BABABA center no-repeat ;
     grid-column: 1 / 3;
-    background-image: url('../images/5.jpg');
 }
 
 .item6 {
+    background: url('../images/6.jpg') #BABABA center  no-repeat;
     grid-column: 3 / 5;
-    background-image: url('../images/6.jpg');
 }
 
 .item7{
+    background: url('../images/7.jpg') #BABABA center center  no-repeat;
     grid-column: 1 / 4;
-    background-image: url('../images/7.jpg');
-}
+    }
 
 .item8 {
-    background-image: url('../images/8.jpg');
+    background: url('../images/8.jpg') #BABABA center  no-repeat;
 }
 
 .item9 {
+    background: url('../images/9.jpg') #BABABA center  no-repeat;
     grid-column: 1 / 3;
-    background-image: url('../images/9.jpg');
 }
 
 .item10 {
     grid-column: 3 / 5;
-    background-image: url('../images/10.jpg');
+    background: url('../images/10.jpg') #BABABA center  no-repeat;
 }
 
 .item11 {
-    background-image: url('../images/11.jpg');
+    background: url('../images/11.jpg') #BABABA center  no-repeat;
 }
 
 .item12 {
+    background: url('../images/12.jpg') #BABABA center  no-repeat;
     grid-column: 2 / 5;
-    background-image: url('../images/12.jpg');
 }
 
-
+.cover{
+    background-size: cover;
+    border: 12px solid #BABABA;
+}
